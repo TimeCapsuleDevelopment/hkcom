@@ -1,16 +1,16 @@
 .Product {
   text-decoration: none;
-  color: black;
+  color: pink;
   cursor: pointer;
 }
 
 .Product__image {
-  border: 3px solid black;
+  border: 3px solid pink;
   padding: 7px;
   width: 100%;
   position: relative;
   margin-bottom: 25px;
-  box-shadow: 9px 9px black;
+  box-shadow: 9px 9px pink;
 
   img {
     width: 100%;
@@ -26,7 +26,7 @@
   &:before, &:after {
     content: "";
     position: absolute;
-    background: black;
+    background: pink;
     z-index: 2;
   }
 
